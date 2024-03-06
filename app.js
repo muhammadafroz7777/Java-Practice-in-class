@@ -5,12 +5,23 @@
 
 
 
-var para = document.querySelector('.para');
+// var para = document.querySelector('.para');
 
-console.log(para.innerHTML);
+// console.log(para.innerHTML);
 
+
+// function greetUser(){
+//     para.innerHTML = "Afo Awan"
+
+// }
+
+
+
+var input1 = document.querySelector('.input1');
+console.log(input1.value);
 
 function greetUser(){
-    para.innerHTML = "Afo Awan"
-
+    
+    console.log(input1.value);
+    input1.value=''
 }
